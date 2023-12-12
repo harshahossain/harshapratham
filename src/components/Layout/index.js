@@ -1,5 +1,11 @@
+import Sidebar from '../Sidebar'
 import './index.scss'
 
 export default function Layout() {
-  return <>Hello boilerplate</>
+  return (
+    <>
+      Hello boilerplate
+      <Sidebar />
+    </>
+  )
 }
